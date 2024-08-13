@@ -5,15 +5,13 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/",
-    "lint": "eslint src/**",
-    "pretest": "npm run lint",
-    "test": "jest --runInBand src",
-    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+    "test": "jest"
   },
   "keywords": [],
   "author": "José Antonio Reyes <imjaroiswebdev@gmail.com (https://imjaroiswebdev.tech)",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.22.0",
