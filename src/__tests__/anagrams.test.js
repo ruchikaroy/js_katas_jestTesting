@@ -1,4 +1,4 @@
-const anagrams = require("./anagrams");
+const anagrams = require("../anagrams");
 
 describe("anagrams()", () => {
   test("test should return true for strings which are anagrams", () => {
