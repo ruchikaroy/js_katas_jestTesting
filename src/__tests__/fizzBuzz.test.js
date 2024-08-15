@@ -1,4 +1,4 @@
-const fizzBuzz = require("../fizzbuzz");
+const fizzBuzz = require("../fizzBuzz");
 
 describe("fizzBuzz()", () => {
   test("should return NaN if the passed input is not a number", () => {
