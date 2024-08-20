@@ -1,3 +1,5 @@
+// Write a function that takes a number (n) and returns the square root of that number.
+
 function squareRoot(n) {
   if (typeof n === "string") {
     return NaN;
