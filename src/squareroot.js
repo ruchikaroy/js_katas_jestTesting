@@ -1,4 +1,4 @@
-function modulo(n) {
+function squareRoot(n) {
   if (typeof n === "string") {
     return NaN;
   }
@@ -7,4 +7,4 @@ function modulo(n) {
   }
   return Number(Math.sqrt(n).toFixed(2));
 }
-module.exports = modulo;
+module.exports = squareRoot;
