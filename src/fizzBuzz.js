@@ -3,6 +3,6 @@ function fizzBuzz(input) {
   if (input % 3 === 0 && input % 5 !== 0) return "Fizz";
   if (input % 3 !== 0 && input % 5 === 0) return "Buzz";
   if (input % 3 === 0 && input % 5 === 0) return "FizzBuzz";
-  return "Invalid Number";
+  return input;
 }
 module.exports = fizzBuzz;

@@ -25,10 +25,10 @@ describe("fizzBuzz()", () => {
     const expectedOuput = "FizzBuzz";
     expect(result).toBe(expectedOuput);
   });
-  test("should return 'Invalid Number' if the passed input is not divisible by 3 or 5 ", () => {
+  test("should return the input itself if the passed input is not divisible by 3 or 5 ", () => {
     const input = 22;
     const result = fizzBuzz(input);
-    const expectedOuput = "Invalid Number";
+    const expectedOuput = input;
     expect(result).toBe(expectedOuput);
   });
 });
